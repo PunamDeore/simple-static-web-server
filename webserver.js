@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = process.env.PORT || 3010;
+const PORT = process.env.PORT || 3100;
 const STATIC_FOLDER = path.join(__dirname, 'static');
 
 const server = http.createServer((req, res) => {
